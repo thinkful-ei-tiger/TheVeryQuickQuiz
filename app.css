@@ -1,0 +1,127 @@
+
+body {
+  background-image: url("images/question.jpeg");
+  background-position: left;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: black;
+  background-size: contain;
+  overflow: hidden;
+}
+
+div{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+div.questions{
+  flex: 1;
+  background-size: contain;
+  box-shadow: 25px 25px 50px 0 rgb(0, 0, 0) inset, -25px -25px 50px 0 rgb(0, 0, 0) inset;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+p{
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  color:blue;
+  
+}
+
+.questions {
+  color: whitesmoke;
+  border: 3px solid whitesmoke;
+  border-radius: .5px;
+  padding: 15px 30px 15px 30px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 25px;
+  width: 50%;
+  text-decoration: none;
+  font-size: 28px;
+  text-align: center;
+  text-shadow: 3px 5px 5px rgb(0, 0, 0);
+  outline: 2px;
+  outline-color: black;
+}
+
+.begin {
+  color:rgb(255, 255, 255);
+  border: 3px solid whitesmoke;
+  background-color: black;
+  
+  padding: 15px 30px;
+  margin-right: auto;
+  margin-left: auto;
+  text-decoration: none;
+  font-size: 28px;
+  display: flex;
+}
+
+.begin:hover{
+  background-color:blue
+}
+
+.boxed {
+  border: 3px dashed white;
+  margin-bottom: 30px;
+  background-image: radial-gradient(whitesmoke black);
+}
+
+#submit {
+  color:white;
+  border: 3px solid rgb(20, 20, 20);
+  background-color: black;
+  border-radius: 40px;
+  padding: 15px 30px;
+  margin-right: auto;
+  margin-left: auto;
+  text-decoration: none;
+  
+  font-size: 28px;
+  display: flex;
+}
+
+#submit:hover{
+  background-color: blue;
+}
+
+#next {
+  color: white;
+  border: 3px solid whitesmoke;
+  background-color: black;
+  border-radius: 30px;
+  padding: 15px 30px;
+  margin-right: auto;
+  margin-left: auto;
+  text-decoration: none;
+  font-size: 28px;
+  display: flex;
+}
+
+#next:hover{
+  background-color: blue;
+
+}
+
+#again {
+  color: white;
+  border: 3px solid whitesmoke;
+  background-color: black;
+  border-radius: 30px;
+  padding: 15px 30px;
+  margin-right: auto;
+  margin-left: auto;
+  text-decoration: none;
+  font-size: 28px;
+  display: flex;
+}
+
+.fontSize {
+  font-size: 15px;
+}
